@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+   
+}
+.container {
+    
+    padding: 1.5rem;
+    width: 100%;
+    height: 100%;
+
+}
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+.row {
+    padding: 1.5rem;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 30%;
+    overflow: hidden;
+}
+.card {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    perspective: 1000px;
+    cursor: pointer;
+}
+.inner-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.card-front {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1551042/original/55_copy.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.front1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1750757/original/15621571054.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.front2{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1741884/original/andamans-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.front3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1741042/original/ross-isle.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.front4{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1742579/original/gettyimages-550486611_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.front5{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1742895/original/5c3da5ec2945f-ross_island_attractions.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*-------------------goa-----------------*/
+.goa1 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1749919/original/123077997.jpg);
+}
+.goa2 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1749920/original/61809828.jpg);
+}
+.goa3 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1749975/original/screenshot-2020-07-11-at-3.21.16-pm.png);
+}
+.goa4 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1744580/original/1569483905_airport2.jpg.webp);
+}
+.goa5 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1748707/original/img_20200207_190955.jpg);
+}
+.goa6 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1742216/original/goa_5508.jpg);
+}
+
+/*---------------kerala-------------------*/
+
+.kerala1 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1574164/original/banner2.jpg);
+}
+.kerala2 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1750771/original/alleppey1.jpg);
+}
+.kerala3 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1743070/original/kovalam.jpg);
+}
+.kerala4 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1740541/original/houseboat--travilius.jpg);
+}
+.kerala5 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1750302/original/munnar.jpeg);
+}
+.kerala6 {
+    background-image: url(https://assets.travclan.com/unsafe/0x500/smart/https://s3-ap-south-1.amazonaws.com/com.travclan.uploads/images/1741045/original/xkerla-01.jpg.pagespeed.ic.ayvw6pvga-.jpg);
+}
+span {
+    display: inline-block;
+    width: 15rem;
+    padding: 14px 0;
+    margin-top: 160px;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+    transition: transform 1s;
+}
+.card-back {
+    background: #1c1f54;
+    transform: rotateX(180deg);
+}
+.card:hover .inner-box{
+    transform: rotateX(-180deg);
+    
+}
+.card:hover span {
+    transform: translateY(140px);
+}
+p{
+    
+    display: inline-block;
+    color: wheat;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    /* margin-top: 140px;
+    font-size: 20px; */
+    font-weight: bold;
+
+}
+h3 {
+    
+    padding: 1rem;
+    color: antiquewhite;
+}

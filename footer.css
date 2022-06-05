@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-image: linear-gradient(to left,#0AA1DD,#79DAE8);
+}
+footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/* .icons {
+    display: flex;
+    text-align: center;
+} */
+.icons img{
+    width: 30px;
+    padding: 5px;
+    margin-top: 10px;
+}
